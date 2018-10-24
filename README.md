@@ -1,5 +1,5 @@
-# adapt-contrib-drawerPageNavigation  
+# adapt-contrib-drawerPageNavigation_Enhanced 
 
-Adapt2 extension that add a navigation element to the drawer allowing users to get between pages without having to return to the main menu.
+Enhancement of Adapt2 extension that add a navigation element to the drawer allowing users to get between pages without having to return to the main menu.
 
-Can be installed and used via the authoring tool or by adding example config to the course config file. 
+Do not use! Work in progress!! Not all nescecary changes implemented yet!!
