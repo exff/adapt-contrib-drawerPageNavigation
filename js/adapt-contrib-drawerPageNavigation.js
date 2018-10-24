@@ -21,7 +21,7 @@ define([
     Adapt.once('app:dataReady', function() {
 
         var drawerPageNavigationData = Adapt.course.get('_drawerPageNavigation');
-        var contentObjectItems = Adapt.contentObjects.models;
+        var contentObjectItems = Adapt.contentObjects.where({_parentId: "course"});
 
         // do not proceed until resource set on course.json
         if (!contentObjectItems || drawerPageNavigationData._isEnabled === false) return;
